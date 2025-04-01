@@ -1,0 +1,22 @@
+{
+  "name": "ikkinchibot",
+  "version": "1.0.0",
+  "description": "Nodejs da telegram bot",
+  "keywords": [
+    "nodejs",
+    "grammy"
+  ],
+  "license": "ISC",
+  "author": "Nilufar Jumatova",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.35.1",
+    "nodemon": "^3.1.9"
+  }
+}
